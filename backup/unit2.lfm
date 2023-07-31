@@ -1,0 +1,22 @@
+object Form2: TForm2
+  Left = 482
+  Height = 422
+  Top = 165
+  Width = 494
+  Caption = 'Form2'
+  ClientHeight = 422
+  ClientWidth = 494
+  DesignTimePPI = 144
+  OnShow = FormShow
+  LCLVersion = '2.2.4.0'
+  object GeckoBrowser1: TGeckoBrowser
+    Left = 0
+    Height = 422
+    Top = 0
+    Width = 494
+    Align = alClient
+    TabOrder = 0
+    TabStop = False
+    DisableJavaScript = False
+  end
+end
